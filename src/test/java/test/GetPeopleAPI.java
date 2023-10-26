@@ -4,20 +4,14 @@ import apiconfigs.APIPaths;
 import apiconfigs.HeaderConfig;
 import apiverification.ResponseVerification;
 import com.relevantcodes.extentreports.LogStatus;
-
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
-
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
+
+import static io.restassured.RestAssured.given;
 
 public class GetPeopleAPI extends InitTest {
 
